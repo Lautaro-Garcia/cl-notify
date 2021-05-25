@@ -6,3 +6,4 @@
 - Hability to close or update current notifications
 - Markup support for those servers that claim that support them
 - Functions to get information about the notification server (`notification-server-info` and `notification-server-capabilities`)
+- API to define signal handlers (NotificationClosed and InvokeAction signals)

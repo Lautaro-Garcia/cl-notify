@@ -5,4 +5,5 @@
            :make-hint :low-urgency-hint :normal-urgency-hint :critical-urgency-hint
            :notifications :notify :server-information :server-capabilities
            :notification-server-info :notification-server-capabilities :name :version :vendor :spec-version
-           :standard-dbus-notification-proxy :get-server-information :get-server-capabilities))
+           :standard-dbus-notification-proxy :get-server-information :get-server-capabilities
+           :register-callback :unregister-callback :define-callback :stop-signal-handling-loop))

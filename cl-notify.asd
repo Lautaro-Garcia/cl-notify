@@ -3,14 +3,16 @@
   :author "Lautaro García"
   :version "1.0.0"
   :serial t
-  :depends-on (:dbus)
+  :depends-on (:dbus :stmx :bordeaux-threads)
   :in-order-to ((test-op (test-op :cl-notify/tests)))
   :pathname "src"
   :components ((:file "package")
                (:file "markup")
                (:file "hints")
                (:file "dbus-protocol")
-               (:file "notifications")))
+               (:file "notifications")
+               (:file "close-notification-reason")
+               (:file "signals")))
 
 (asdf:defsystem :cl-notify/tests
   :description "cl-notify tests"
